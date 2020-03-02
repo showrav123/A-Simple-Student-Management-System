@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 145px;
+    background: #222334;
+    opacity: .75;
+    margin-bottom: .6px;
+}
+.header .logo{
+    width: 30%;
+    height: 135px;
+    float: left;
+}
+.header .logo img{
+    width: 45%;
+    height: 138px;
+    padding-top: 1.5px;
+    padding-left: 40%;
+    
+    
+    
+    
+}
+.header .name{
+    width: 60%;
+    height: 140px;
+    margin: 0;
+    overflow: hidden;
+    padding-right: 10%;
+    
+    
+}
+.header .name h1{
+    color: #ffcc00;
+    margin-top: 1px;
+    text-shadow:1px 1px 5px black;
+    font-size: 40px
+}
+.header .name p{
+    padding-bottom: 5px;
+    color: #ffcc00;
+    text-shadow:1px 1px 2px black;
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.content p a{
+    text-decoration: none;
+}
+.content a{
+    text-decoration: none;
+}
+.content .header_content{
+    background-color: #003333;
+}
+.content .header_content h1{
+    text-align: center;
+    color: #ffcc66;
+    padding-top: 10px;
+    
+}
+.content .form{
+    margin-top: 10px;
+}
+.content .form tr td{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.content .form input[type="submit"]{
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    background:#000033;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.content .form input[type="submit"]:hover{
+    background: #fff;
+    color: #000033;
+}
+.nav{
+    width:100%;
+    background:#000033;
+    height: 50px;
+    opacity: 0.6;
+    
+    
+}
+.nav ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+.nav ul li{
+    float:left;
+    padding-top: 10px;
+    
+}
+.nav ul li a{
+    width: 150px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+    font-family: Century Gothic;
+}
+.nav ul li a:hover{
+    background: #125666;
+    
+}
+

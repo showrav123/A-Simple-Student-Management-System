@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 145px;
+    background: #222334;
+    opacity: .75;
+    margin-bottom: .6px;
+}
+.header .logo{
+    width: 30%;
+    height: 135px;
+    float: left;
+}
+.header .logo img{
+    width: 45%;
+    height: 138px;
+    padding-top: 1.5px;
+    padding-left: 40%;
+    
+    
+    
+    
+}
+.header .name{
+    width: 60%;
+    height: 140px;
+    margin: 0;
+    overflow: hidden;
+    padding-right: 10%;
+    
+    
+}
+.header .name h1{
+    color: #ffcc00;
+    margin-top: 1px;
+    text-shadow:1px 1px 5px black;
+    font-size: 40px
+}
+.header .name p{
+    padding-bottom: 5px;
+    color: #ffcc00;
+    text-shadow:1px 1px 2px black;
+}
+.h1 h1{
+    text-align: center;
+}
+.content{
+    width: 70%;
+    
+}
+.content .bar{
+    width: 30%;
+    float: left;
+}
+.content .bar ul li {
+    list-style: none;
+    padding-top: 15px;
+    
+}
+.content .bar ul li a{
+    display: block;
+    background: #009999;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-top: 8px;
+    font-weight: bold;
+    border-bottom: 1px solid #222334;
+    
+}
+.content .bar ul li a:hover{
+    background: #000033;
+    color: #ffffff;
+}
+
+.content .main_content{
+   position: absolute;
+   display: block;
+   padding-left: 35%;
+    
+}
+
